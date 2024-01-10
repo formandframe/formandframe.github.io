@@ -797,7 +797,7 @@ blockquote {
   }
 
   .menu-btn.hide {
-    display: none;
+    display: block;
   }
 
   .container-2.navigation-wrapper {
@@ -835,7 +835,7 @@ blockquote {
   }
 
   .nav-link.sm {
-    margin-top: 8px;
+    margin-top: 4px;
     font-family: Inter, sans-serif;
     font-size: 1em;
     display: block;
@@ -847,7 +847,7 @@ blockquote {
   }
 
   .navigation-menu-icon.hide {
-    display: none;
+    display: block;
   }
 
   .navbar {
@@ -883,6 +883,7 @@ blockquote {
     background-color: #f5f5f5;
     padding-top: 16em;
     padding-left: 0;
+    padding-right: 0;
   }
 
   .section.mini-about, .section.use-cases {
@@ -1115,11 +1116,13 @@ blockquote {
   }
 
   .menu-btn.hide {
-    width: 0;
-    height: 0;
-    opacity: 0;
-    padding: 0;
-    display: none;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    display: block;
+  }
+
+  .container-2.navigation-wrapper {
+    padding-right: .625em;
   }
 
   .logo-wrapper {
@@ -1133,6 +1136,10 @@ blockquote {
 
   .nav-link.sm {
     margin-top: 12px;
+  }
+
+  .navigation-menu-icon.hide {
+    display: block;
   }
 
   .x-hamburger {
