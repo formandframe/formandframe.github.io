@@ -273,7 +273,7 @@ blockquote {
   text-decoration: underline;
 }
 
-.nav-link.hide-desktop {
+.nav-link.hide-desktop, .nav-link.sm {
   display: none;
 }
 
@@ -796,6 +796,10 @@ blockquote {
     display: flex;
   }
 
+  .menu-btn.hide {
+    display: none;
+  }
+
   .container-2.navigation-wrapper {
     height: 4em;
     justify-content: space-between;
@@ -830,9 +834,20 @@ blockquote {
     display: block;
   }
 
+  .nav-link.sm {
+    margin-top: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 1em;
+    display: block;
+  }
+
   .navigation-menu-icon {
     width: 28px;
     max-width: none;
+  }
+
+  .navigation-menu-icon.hide {
+    display: none;
   }
 
   .navbar {
@@ -981,7 +996,7 @@ blockquote {
   .container-2.navigation-wrapper {
     align-items: center;
     padding-left: 1.125em;
-    padding-right: .625em;
+    padding-right: 1.125em;
   }
 
   .logo-wrapper, .logo-wrapper.w--current {
@@ -991,6 +1006,10 @@ blockquote {
   .nav-link {
     font-size: 3.5em;
     line-height: 110%;
+  }
+
+  .nav-link.sm {
+    margin-top: 10px;
   }
 
   .navigation-menu-icon {
@@ -1095,6 +1114,14 @@ blockquote {
     position: relative;
   }
 
+  .menu-btn.hide {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    padding: 0;
+    display: none;
+  }
+
   .logo-wrapper {
     z-index: 6;
     padding-left: 0;
@@ -1102,6 +1129,10 @@ blockquote {
 
   .nav-link {
     font-size: 2.5em;
+  }
+
+  .nav-link.sm {
+    margin-top: 12px;
   }
 
   .x-hamburger {
