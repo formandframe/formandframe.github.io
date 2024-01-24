@@ -1,3 +1,8 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
 body {
   letter-spacing: 0;
   font-size: 1em;
@@ -343,11 +348,11 @@ blockquote {
 }
 
 .section.mini-about.center {
-  display: none;
+  display: block;
 }
 
 .section.mini-about.hide {
-  display: block;
+  display: none;
 }
 
 .section.sticky {
@@ -400,6 +405,10 @@ blockquote {
 }
 
 .section.footer.dark {
+  display: block;
+}
+
+.section.footer.dark.hide {
   display: none;
 }
 
